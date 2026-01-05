@@ -9,7 +9,7 @@ const XHSPost = () => {
         // Slide 1: Cover
         {
             type: 'cover',
-            title: "为什么你什么都没做aaaaaaaaaa",
+            title: "为什么你什么都没做???",
             highlight: "却觉得精疲力竭？",
             subtitle: "首期播客：解开「精神熵」的内耗枷锁",
             tag: "心理成长 / 效率提升"
