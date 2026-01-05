@@ -9,50 +9,12 @@ const XHSPost = () => {
         // Slide 1: Cover
         {
             type: 'cover',
-            title: "为什么你什么都没做",
+            title: "为什么你什么都没做1111111111",
             highlight: "却觉得精疲力竭？",
             subtitle: "首期播客：解开「精神熵」的内耗枷锁",
             tag: "心理成长 / 效率提升"
         },
-        // Slide 2: Pain Points
-        {
-            type: 'list',
-            title: "你是否也有这些感觉？",
-            items: [
-                "明明躺了一天，大脑却像跑了马拉松",
-                "面对简单的选择，却感到异常艰难",
-                "手机刷个不停，心里却越来越空虚",
-                "总觉得有无数件事要做，却一件也没动"
-            ],
-            footer: "这不是因为你懒，而是精神熵增了。"
-        },
-        // Slide 3: Concept
-        {
-            type: 'concept',
-            title: "什么是精神熵？",
-            desc: "物理学中，熵代表混乱度。在心理学中，当信息涌入超过处理能力，大脑就会陷入「无序状态」。",
-            formula: "内耗 = 混乱的信息 × 无法聚焦的注意力",
-            bg: "bg-orange-50"
-        },
-        // Slide 4: Solutions
-        {
-            type: 'action',
-            title: "3个动作开启「精神熵减」",
-            steps: [
-                { t: "大脑清空术", d: "把所有焦虑的事写在纸上，清空缓存" },
-                { t: "单线程任务", d: "一次只做一件事，哪怕只是喝一杯水" },
-                { t: "数字断舍离", d: "关闭非必要的App通知，夺回注意力" }
-            ]
-        },
-        // Slide 5: CTA
-        {
-            type: 'cta',
-            title: "首期节目已上线",
-            podcast: "精神熵减 | 01",
-            platforms: ["小宇宙", "苹果Podcast", "网易云音乐"],
-            slogan: "让我们一起，从混乱走向有序。"
-        }
-    ];
+     ];
 
     const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % slides.length);
     const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
